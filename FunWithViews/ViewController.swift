@@ -10,8 +10,54 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var viewLabelTopRight: UIView!
+    
+    @IBOutlet weak var viewLabelTopLeft: UIView!
+    
+    @IBOutlet weak var viewLabelMidLeft: UIView!
+    
+    @IBOutlet weak var viewLabelMiddle: UIView!
+    
+    @IBOutlet weak var viewLabelMidRight: UIView!
+    
+    @IBOutlet weak var viewLabelBottomLeft: UIView!
+    
+    @IBOutlet weak var viewLabelBottomRight: UIView!
+    
+    @IBOutlet weak var viewLabelGreen: UILabel!
+    
+    @IBOutlet weak var viewLabelBlue: UILabel!
+    
+    @IBOutlet weak var viewLabelPurple: UILabel!
+    
+    @IBOutlet weak var viewLabelYellow: UILabel!
+    
+    @IBOutlet weak var viewLabelOrange: UILabel!
+    
+    @IBOutlet weak var viewLabelRed: UILabel!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        viewLabelTopRight.isHidden = true
+        viewLabelTopLeft.isHidden = true
+        viewLabelMidLeft.isHidden = true
+        viewLabelMiddle.isHidden = true
+        viewLabelMidRight.isHidden = true
+        viewLabelBottomLeft.isHidden = true
+        viewLabelBottomRight.isHidden = true
+        viewLabelGreen.isHidden = true
+        viewLabelBlue.isHidden = true
+        viewLabelPurple.isHidden = true
+        viewLabelYellow.isHidden = true
+        viewLabelOrange.isHidden = true
+        viewLabelRed.isHidden = true
+        
+        
+        
     }
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {

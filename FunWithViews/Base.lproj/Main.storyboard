@@ -77,14 +77,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qrx-TO-X28">
-                                <rect key="frame" x="137" y="524" width="40" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vov-dK-5zw">
                                 <rect key="frame" x="319" y="524" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -109,9 +101,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ChI-f2-qp6">
+                                <rect key="frame" x="137" y="524" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="viewLabelBlue" destination="4Rl-QG-KF7" id="0Kc-1h-1YU"/>
+                        <outlet property="viewLabelBottomLeft" destination="Ef1-ac-Abm" id="XA9-BY-WMN"/>
+                        <outlet property="viewLabelBottomRight" destination="TTY-Hp-1rT" id="DPf-CU-ef3"/>
+                        <outlet property="viewLabelGreen" destination="vov-dK-5zw" id="48F-uD-k3m"/>
+                        <outlet property="viewLabelMidLeft" destination="eBM-CS-Imc" id="W3F-5y-sAj"/>
+                        <outlet property="viewLabelMidRight" destination="Ab3-5w-aGs" id="I1P-Ff-fuV"/>
+                        <outlet property="viewLabelMiddle" destination="Pyi-P8-5X2" id="A7p-PL-zCS"/>
+                        <outlet property="viewLabelOrange" destination="Ugn-RT-ASR" id="OnM-aw-A2h"/>
+                        <outlet property="viewLabelPurple" destination="ioN-qt-c2j" id="pWK-Ia-zN3"/>
+                        <outlet property="viewLabelRed" destination="Exv-Tz-xwZ" id="hc3-5k-tpa"/>
+                        <outlet property="viewLabelTopLeft" destination="8P1-qK-C1p" id="lBb-xU-bYZ"/>
+                        <outlet property="viewLabelTopRight" destination="bUS-Vr-ozJ" id="4hr-M5-FQZ"/>
+                        <outlet property="viewLabelYellow" destination="ChI-f2-qp6" id="v0l-y7-ha1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
