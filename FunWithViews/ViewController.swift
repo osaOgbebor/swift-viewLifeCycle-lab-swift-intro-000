@@ -42,6 +42,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    
+        
+        
         viewLabelTopRight.isHidden = true
         viewLabelTopLeft.isHidden = true
         viewLabelMidLeft.isHidden = true
