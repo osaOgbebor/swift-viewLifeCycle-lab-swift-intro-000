@@ -26,37 +26,37 @@
                                     <action selector="dieButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fy8-Ln-sW4"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" misplaced="YES" id="eBM-CS-Imc">
+                            <view contentMode="redraw" misplaced="YES" id="eBM-CS-Imc">
                                 <rect key="frame" x="16" y="183" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="bUS-Vr-ozJ">
+                            <view contentMode="redraw" misplaced="YES" id="bUS-Vr-ozJ">
                                 <rect key="frame" x="259" y="44" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="TTY-Hp-1rT">
+                            <view contentMode="redraw" misplaced="YES" id="TTY-Hp-1rT">
                                 <rect key="frame" x="259" y="329" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="Ef1-ac-Abm">
+                            <view contentMode="redraw" misplaced="YES" id="Ef1-ac-Abm">
                                 <rect key="frame" x="16" y="329" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="8P1-qK-C1p">
+                            <view contentMode="redraw" misplaced="YES" id="8P1-qK-C1p">
                                 <rect key="frame" x="16" y="44" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="Ab3-5w-aGs">
+                            <view contentMode="redraw" misplaced="YES" id="Ab3-5w-aGs">
                                 <rect key="frame" x="259" y="183" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" id="Pyi-P8-5X2">
+                            <view contentMode="redraw" misplaced="YES" id="Pyi-P8-5X2">
                                 <rect key="frame" x="137" y="183" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>

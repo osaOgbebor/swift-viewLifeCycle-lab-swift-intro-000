@@ -64,7 +64,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func dieButtonTapped(_ sender: AnyObject) {
-        
+       
+        func updateLabelWithRoll(roll: Int) {
+            
+            let diceScore = String(roll)
+            
+            if viewLabelRed.isHidden {
+                viewLabelRed.text = diceScore
+                viewLabelRed.isHidden = false
+            } else if viewLabelBlue.isHidden {
+                viewLabelBlue.text = diceScore
+                viewLabelBlue.isHidden = false
+            } else if viewLabelYellow.isHidden {
+                viewLabelYellow.text = diceScore
+                viewLabelYellow.isHidden = false
+            }
         
     }
     
@@ -73,4 +87,5 @@ class ViewController: UIViewController {
         return Int(arc4random_uniform(6) + 1)
     }
 
+}
 }
